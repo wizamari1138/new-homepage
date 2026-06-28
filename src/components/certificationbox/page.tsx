@@ -1,8 +1,8 @@
 import Style from './page.module.scss';
 import { BsPassport, BsPcDisplayHorizontal } from "react-icons/bs";
-import { MdOutlineMedicalInformation } from "react-icons/md";
+import { MdOutlineMedicalInformation, MdSecurity } from "react-icons/md";
 
-type IconType = "Passport" | "Information" | "PcDisplay";
+type IconType = "Passport" | "Information" | "PcDisplay" | "MdSecurity";
 
 type Props = {
     name: string;
@@ -14,7 +14,8 @@ type Props = {
 const iconMap = {
     Passport: <BsPassport className={Style.icon} />,
     Information: <MdOutlineMedicalInformation className={Style.icon} />,
-    PcDisplay: <BsPcDisplayHorizontal className={Style.icon} />
+    PcDisplay: <BsPcDisplayHorizontal className={Style.icon} />,
+    MdSecurity: <MdSecurity className={Style.icon}/>
 }
 
 export default function CertificationBox({name, description, date, iconName}: Props) {

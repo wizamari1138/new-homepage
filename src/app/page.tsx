@@ -39,6 +39,7 @@ export default function Home() {
             <CertificationBox name="ITパスポート" description="情報処理推進機構(IPA)" date="2024年5月" iconName="Passport"/>
             <CertificationBox name="情報技術検定1級" description="全国工業高等学校長協会" date="2025年2月" iconName="Information"/>
             <CertificationBox name="基本情報技術者試験" description="情報処理推進機構(IPA)" date="2025年5月" iconName="PcDisplay"/>
+            <CertificationBox name="情報セキュリティマネジメント試験" description="情報処理推進機構(IPA)" date="2025年8月" iconName="MdSecurity"/>
           </div>
         </div>
         <div id="skills" className={Style.skills}>
